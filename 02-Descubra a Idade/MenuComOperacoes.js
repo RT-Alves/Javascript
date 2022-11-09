@@ -43,7 +43,7 @@ function abrirMenu() {
 }
 
 // VOLTAR PARA O MENU PRINCIPAL
-function voltarMenu (){
+function voltarMenu() {
     menu = prompt("Voltar para o Menu? 1-SIM / 2-NÃO: ");
     if (menu == 1) {
         abrirMenu();
