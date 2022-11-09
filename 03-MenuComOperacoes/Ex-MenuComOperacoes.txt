@@ -1,0 +1,38 @@
+=========================================================
+Grande operações matemáticas
+
+Calcular a área de um círculo
+Conversão (Real para Dólar)
+IMC (Indice de massa corporea)
+
+Criar um menu com 3 opções. (Usar switch)
+
+
+=========================================================
+Perguntar informações para calcular a área do círculo:
+
+- Pegar as informações
+- Gerar o cálculo
+- Mostrar o resultado
+
+Input/Output
+Processamento
+Condicionais
+
+
+=========================================================
+IMC
+
+
+
+
+
+=========================================================
+EXTRA
+
+Sair do sistema ou voltar pro menu inicial.
+Repetição.
+Loop = While - For
+
+
+

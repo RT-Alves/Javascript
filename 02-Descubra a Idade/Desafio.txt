@@ -1,0 +1,9 @@
+do jeito que ele esta agora se o usuário digitar um 
+valor errado a conta sai errada, precisamos filtrar isso.
+
+Se ele digitar que nasceu depois de 2022 não é possível.
+então deve mostrar uma mensagem alertando que ele digitou errado.
+
+Se ele digitar um valor antes de 1900 para data de nascimento 
+deve mostrar uma mensagem similar falando a idade e se ele tem certeza 
+dos valores digitados.
