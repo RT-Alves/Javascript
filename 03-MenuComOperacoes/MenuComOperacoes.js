@@ -3,26 +3,46 @@ const prompt = require('prompt-sync')();
 
 //===========================================================================
 // VAR MENU
-var menu = Number;
+var menu
 
 // VAR IMC 
-var peso = Number;
-var imc = Number;
-var altura = Number;
+var peso
+var imc
+var altura
 
 // VAR REAL PARA DÓLAR
-var cotacaoDolar = Number;
-var valorEmReais = Number;
-var convertido = Number;
+var cotacaoDolar
+var valorEmReais
+var convertido
 
 // VAR CALCULAR ÁREA DO CÍRCULO
-var raio = Number;
-var area = Number;
-var pi = 3.14159;
+var raio
+var area
+const pi = 3.14159;
 
 //===========================================================================
 //===========================================================================
 // MENU
+
+abrirMenu();
+function abrirMenu() {
+    console.log("Escolha uma opção 1-IMC / 2-Cotação / 3-Área do Círculo");
+    menu = prompt("Informe o código:");
+    switch (parseInt(menu)) {
+        case 1:
+            abrirImc();
+            break;
+        case 2:
+            abrirConversao();
+            break;
+        case 3:
+            abrirArea();
+            break;
+        default:
+            abrirMenu();
+    }
+}
+/*
 abrirMenu();
 function abrirMenu() {
     console.log("Escolha uma opção 1-IMC / 2-Cotação / 3-Área do Círculo");
@@ -41,6 +61,23 @@ function abrirMenu() {
             abrirMenu();
     }
 }
+*/
+/*
+abrirMenu();
+function abrirMenu() {
+    console.log("Escolha uma opção 1-IMC / 2-Cotação / 3-Área do Círculo");
+    menu = prompt("Informe o código:");
+    if (menu == 1) {
+        abrirImc();
+    } else if (menu == 2) {
+        abrirConversao();
+    } else if (menu == 3) {
+        abrirArea();
+    } else {
+        abrirMenu();
+    }
+}
+*/
 
 // VOLTAR PARA O MENU PRINCIPAL
 function voltarMenu() {
