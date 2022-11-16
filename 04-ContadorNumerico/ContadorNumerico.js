@@ -23,8 +23,7 @@ function apenasNumero(dados) {
 
 function digitarNumero() {
     var numContador = 0;
-    var numUsuario
-    numUsuario = prompt("Digite um número:");
+    var numUsuario = prompt("Digite um número:");
     if (apenasNumero(numUsuario)) {
         while (numContador < numUsuario) {
             numContador++;
